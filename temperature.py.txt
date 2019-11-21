@@ -1,0 +1,15 @@
+# Write a Python program to convert temperatures to and from celsius, fahrenheit. 
+
+Celsius = int(input("Enter a temperature in Celsius: "))
+
+Fahrenheit = 9/5* Celsius + 32
+
+print ("Temperature:", Celsius, "Celsius = ", Fahrenheit, " F")
+
+Fahrenheit = int(input("Enter a temperature in Fahrenheit: "))
+
+Celsius = (Fahrenheit - 32) * 5/9
+
+print ("Temperature:", Fahrenheit, "Fahrenheit = ", Celsius, " C")
+
+
